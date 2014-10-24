@@ -15,11 +15,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <!-- General and theme style sheets -->
-<link rel="stylesheet" href="../../reveal.js//css/reveal.css">
-<link rel="stylesheet" href="../../reveal.js//css/theme/solarized.css" id="theme">
+<link rel="stylesheet" href="reveal.js/css/reveal.css">
+<link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
 
 <!-- For syntax highlighting -->
-<link rel="stylesheet" href="../../reveal.js//lib/css/zenburn.css">
+<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
 <script>
@@ -27,14 +27,14 @@ if( window.location.search.match( /print-pdf/gi ) ) {
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = '../../reveal.js//css/print/pdf.css';
+        link.href = 'reveal.js/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
 }
 
 </script>
 
 <!--[if lt IE 9]>
-<script src="../../reveal.js//lib/js/html5shiv.js"></script>
+<script src="reveal.js/lib/js/html5shiv.js"></script>
 <![endif]-->
 
 <!-- Get Font-awesome from cdn -->
@@ -1720,14 +1720,60 @@ div.output_prompt {
 <section>
     <section>
     
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[4]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="o">%%</span><span class="k">html</span>
+<span class="o">&lt;</span><span class="n">script</span> <span class="nb">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span><span class="o">&gt;</span>
+     <span class="n">show</span><span class="o">=</span><span class="n">true</span><span class="p">;</span>
+     <span class="n">function</span> <span class="n">toggle</span><span class="p">(){</span>
+         <span class="k">if</span> <span class="p">(</span><span class="n">show</span><span class="p">){</span><span class="err">$</span><span class="p">(</span><span class="s">&#39;div.input&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">hide</span><span class="p">();}</span><span class="k">else</span><span class="p">{</span><span class="err">$</span><span class="p">(</span><span class="s">&#39;div.input&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">show</span><span class="p">();}</span>
+            <span class="n">show</span> <span class="o">=</span> <span class="err">!</span><span class="n">show</span><span class="p">}</span>
+ <span class="o">&lt;/</span><span class="n">script</span><span class="o">&gt;</span>
+ <span class="o">&lt;</span><span class="n">h2</span><span class="o">&gt;&lt;</span><span class="n">a</span> <span class="n">href</span><span class="o">=</span><span class="s">&quot;javascript:toggle()&quot;</span> <span class="n">target</span><span class="o">=</span><span class="s">&quot;_self&quot;</span><span class="o">&gt;</span><span class="n">Click</span> <span class="n">to</span> <span class="n">toggle</span> <span class="n">code</span> <span class="nb">input</span><span class="o">&lt;/</span><span class="n">a</span><span class="o">&gt;&lt;/</span><span class="n">h2</span><span class="o">&gt;</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+
+<div class="output_html rendered_html output_subarea ">
+<script type="text/javascript">
+     show=true;
+     function toggle(){
+         if (show){$('div.input').hide();}else{$('div.input').show();}
+            show = !show}
+ </script>
+ <h2><a href="javascript:toggle()" target="_self">Click to toggle code input</a></h2>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section>
+    </section><section>
+    <section>
+    
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="reveal-presentation">Reveal Presentation</h1>
-<h2 id="mgs">MGS</h2>
-<h3 id="oct-21-2014">Oct. 21, 2014</h3>
+<h1 id="young-brown-dwarfs-in-0-ophiuchus">Young Brown Dwarfs in $\rho$ Ophiuchus</h1>
+<h2 id="michael-gully-santiago">Michael Gully-Santiago</h2>
+<h3 id="friday-november-21-2014">Friday, November 21, 2014</h3>
 </div>
 </div>
 </div></section>
@@ -1739,54 +1785,85 @@ div.output_prompt {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Test1
-efwef
-efewf</p>
-<ol>
-<li>stuf</li>
-<li>moar</li>
-</ol>
-</div>
-</div>
-</div></section>
-    </section><section>
-    <section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>test2</p>
+<h2 id="outline">Outline</h2>
 <ul>
-<li>yes</li>
-<li>no</li>
-<li>maybe</li>
+<li>Background on brown dwarfs and star formation</li>
 </ul>
 </div>
 </div>
-</div></section><section>
+</div><div class="fragment">
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>test3</p>
+<ul>
+<li>Goal of our program</li>
+</ul>
 </div>
 </div>
-</div></section>
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Sample selection</li>
+</ul>
+</div>
+</div>
+</div>
+    </div><div class="fragment">
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Magellan and FIRE spectroscopy</li>
+</ul>
+</div>
+</div>
+</div>
+    </div><div style=display:none>
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[5]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Image</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
+<span class="n">Gl229B_image</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s">&#39;http://upload.wikimedia.org/wikipedia/commons/7/78/Brown_Dwarf_Gliese_229B.jpg&#39;</span><span class="p">)</span>
+<span class="n">h</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;h2&gt;Background on brown dwarfs and star formation&lt;/h2&gt;&#39;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+    </div></section>
     </section><section>
     <section>
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[1]:
+In&nbsp;[6]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="k">print</span> <span class="s">&#39;this is some code&#39;</span>
+<div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">h</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">Gl229B_image</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1798,39 +1875,61 @@ In&nbsp;[1]:
 
 
 <div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-this is some code
 
-</pre>
-</div>
+<div class="output_html rendered_html output_subarea ">
+<h2>Background on brown dwarfs and star formation</h2>
 </div>
 
 </div>
+
+<div class="output_area"><div class="prompt"></div>
+
+<div class="output_html rendered_html output_subarea ">
+<img src="http://upload.wikimedia.org/wikipedia/commons/7/78/Brown_Dwarf_Gliese_229B.jpg"/>
 </div>
 
-</div></section><section>
+</div>
+
+</div>
+</div>
+
+</div><div style=display:none>
     
-<div class="cell border-box-sizing text_cell rendered">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">
+In&nbsp;[7]:
 </div>
 <div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>The end</p>
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">math_title</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;h2&gt; Here is some math&lt;/h2&gt;&#39;</span><span class="p">)</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Latex</span>
+<span class="n">math_out</span> <span class="o">=</span> <span class="n">Latex</span><span class="p">(</span><span class="s">r&quot;&quot;&quot;\begin{eqnarray}</span>
+<span class="s">\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\</span>
+<span class="s">\nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\</span>
+<span class="s">\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\</span>
+<span class="s">\nabla \cdot \vec{\mathbf{B}} &amp; = 0 </span>
+<span class="s">\end{eqnarray}&quot;&quot;&quot;</span><span class="p">)</span>
+</pre></div>
+
 </div>
 </div>
-</div></section>
+</div>
+
+</div>
+    </div></section>
     </section><section>
     <section>
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[2]:
+In&nbsp;[8]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="k">print</span> <span class="nb">sum</span><span class="p">(</span><span class="mf">1.0</span><span class="o">/</span><span class="p">(</span><span class="mf">1.0</span><span class="o">+</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1000</span><span class="p">))</span>
+<div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">math_title</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">math_out</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1842,40 +1941,50 @@ In&nbsp;[2]:
 
 
 <div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-7.48547086055
 
-</pre>
-</div>
+<div class="output_html rendered_html output_subarea ">
+<h2> Here is some math</h2>
 </div>
 
 </div>
+
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_latex output_subarea ">
+\begin{eqnarray}
+\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\
+\nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
+\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
+\nabla \cdot \vec{\mathbf{B}} & = 0 
+\end{eqnarray}
 </div>
 
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
+
+</div>
+</div>
+
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
-In&nbsp;[2]:
 </div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre> 
-</pre></div>
-
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The end.</p>
 </div>
 </div>
-</div>
-
 </div></section>
     </section>
 </div>
 </div>
 
-<script src="../../reveal.js//lib/js/head.min.js"></script>
+<script src="reveal.js/lib/js/head.min.js"></script>
 
-<script src="../../reveal.js//js/reveal.js"></script>
+<script src="reveal.js/js/reveal.js"></script>
 
 <script>
 
@@ -1890,9 +1999,9 @@ transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/c
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
-{ src: "../../reveal.js//lib/js/classList.js", condition: function() { return !document.body.classList; } },
-{ src: "../../reveal.js//plugin/highlight/highlight.js", async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-{ src: "../../reveal.js//plugin/notes/notes.js", async: true, condition: function() { return !!document.body.classList; } }
+{ src: "reveal.js/lib/js/classList.js", condition: function() { return !document.body.classList; } },
+{ src: "reveal.js/plugin/highlight/highlight.js", async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+{ src: "reveal.js/plugin/notes/notes.js", async: true, condition: function() { return !!document.body.classList; } }
 ]
 });
 </script>
