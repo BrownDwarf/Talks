@@ -1723,7 +1723,7 @@ div.output_prompt {
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[24]:
+In&nbsp;[1]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1835,15 +1835,16 @@ In&nbsp;[24]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[25]:
+In&nbsp;[1]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
 <div class="highlight"><pre><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Image</span>
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
-<span class="n">Gl229B_image</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s">&#39;http://upload.wikimedia.org/wikipedia/commons/7/78/Brown_Dwarf_Gliese_229B.jpg&#39;</span><span class="p">)</span>
-<span class="n">h</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;h2&gt;Background on brown dwarfs and star formation&lt;/h2&gt;&#39;</span><span class="p">)</span>
+<span class="n">Gl229B_image</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s">&#39;http://upload.wikimedia.org/wikipedia/commons/7/78/Brown_Dwarf_Gliese_229B.jpg&#39;</span><span class="p">,</span>
+                     <span class="n">width</span><span class="o">=</span><span class="mi">600</span><span class="p">)</span>
+<span class="n">h</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;h2&gt;Brown dwarfs were discovered 20 years ago&lt;/h2&gt;&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1858,7 +1859,7 @@ In&nbsp;[25]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[26]:
+In&nbsp;[3]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1877,7 +1878,7 @@ In&nbsp;[26]:
 <div class="output_area"><div class="prompt"></div>
 
 <div class="output_html rendered_html output_subarea ">
-<h2>Background on brown dwarfs and star formation</h2>
+<h2>Brown dwarfs were discovered 20 years ago</h2>
 </div>
 
 </div>
@@ -1885,7 +1886,7 @@ In&nbsp;[26]:
 <div class="output_area"><div class="prompt"></div>
 
 <div class="output_html rendered_html output_subarea ">
-<img src="http://upload.wikimedia.org/wikipedia/commons/7/78/Brown_Dwarf_Gliese_229B.jpg"/>
+<img src="http://upload.wikimedia.org/wikipedia/commons/7/78/Brown_Dwarf_Gliese_229B.jpg" width="600"/>
 </div>
 
 </div>
@@ -1893,23 +1894,67 @@ In&nbsp;[26]:
 </div>
 </div>
 
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="in-the-last-20-years-1767-brown-dwarfs-have-been-discovered">In the last 20 years, ~1767 brown dwarfs have been discovered</h2>
+<p><blockquote class="twitter-tweet" lang="en"><p>An up-to-date list of all currently known 1,767 brown dwarfs ! <a href="http://t.co/VQJY6PVuQf">http://t.co/VQJY6PVuQf</a></p>&mdash; Jonathan Gagné (@percolato) <a href="https://twitter.com/percolato/status/510342486519476224">September 12, 2014</a></blockquote></p>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="key-properties-of-brown-dwarfs">Key properties of brown dwarfs</h2>
+<p class="fragment grow">
+Brown dwarfs are low mass <br> $-1.9 \lesssim \log{\frac{M}{M_{\odot}}} \lesssim  -1.1 $ 
+</p>
+
+<p class="fragment grow">
+They span a wide range in luminosity <br> $-7 \lesssim \log{\frac{L}{L_{\odot}}} \lesssim -1 $
+</p>
+
+<p class="fragment grow">
+Brown dwarfs are monotonically cooling$^\dagger$, $\frac{dT}{dt} &lt; 0$
+
+</p>
+
+<p class="fragment grow">
+Brown dwarfs are monotonically shrinking, $\frac{dR}{dt} &lt; 0$
+</p>
+
+<p class="fragment grow">
+Therefore, from Stefan-Boltzmann law, $\frac{dL}{dt} &lt; 0$
+</p>
+
+<p class="fragment grow">
+Brown dwarfs are not black bodies- molecules exist in their atmospheres.
+</p>
+</div>
+</div>
 </div><div style=display:none>
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[27]:
+In&nbsp;[16]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">math_title</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;h2&gt; Here is some math&lt;/h2&gt;&#39;</span><span class="p">)</span>
-<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Latex</span>
-<span class="n">math_out</span> <span class="o">=</span> <span class="n">Latex</span><span class="p">(</span><span class="s">r&quot;&quot;&quot;\begin{eqnarray}</span>
-<span class="s">\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} &amp; = \frac{4\pi}{c}\vec{\mathbf{j}} \\</span>
-<span class="s">\nabla \cdot \vec{\mathbf{E}} &amp; = 4 \pi \rho \\</span>
-<span class="s">\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} &amp; = \vec{\mathbf{0}} \\</span>
-<span class="s">\nabla \cdot \vec{\mathbf{B}} &amp; = 0 </span>
-<span class="s">\end{eqnarray}&quot;&quot;&quot;</span><span class="p">)</span>
+<div class="highlight"><pre><span class="n">burrows_title</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;h3&gt;Brown dwarfs are monotonically decreasing luminosity&lt;/h3&gt;&#39;</span><span class="p">)</span>
+<span class="n">burrows_T</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;iframe src=http://irtfweb.ifa.hawaii.edu/~cushing/downloads/Burrows97_Lbol.pdf width=800 height = 600&gt;&lt;/iframe&gt;&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1924,12 +1969,12 @@ In&nbsp;[27]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[28]:
+In&nbsp;[17]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">math_title</span><span class="p">)</span>
-<span class="n">display</span><span class="p">(</span><span class="n">math_out</span><span class="p">)</span>
+<div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">burrows_title</span><span class="p">)</span>
+<span class="n">display</span><span class="p">(</span><span class="n">burrows_T</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1943,135 +1988,15 @@ In&nbsp;[28]:
 <div class="output_area"><div class="prompt"></div>
 
 <div class="output_html rendered_html output_subarea ">
-<h2> Here is some math</h2>
+<h3>Brown dwarfs are monotonically decreasing luminosity</h3>
 </div>
 
 </div>
-
-<div class="output_area"><div class="prompt"></div>
-
-
-<div class="output_latex output_subarea ">
-\begin{eqnarray}
-\nabla \times \vec{\mathbf{B}} -\, \frac1c\, \frac{\partial\vec{\mathbf{E}}}{\partial t} & = \frac{4\pi}{c}\vec{\mathbf{j}} \\
-\nabla \cdot \vec{\mathbf{E}} & = 4 \pi \rho \\
-\nabla \times \vec{\mathbf{E}}\, +\, \frac1c\, \frac{\partial\vec{\mathbf{B}}}{\partial t} & = \vec{\mathbf{0}} \\
-\nabla \cdot \vec{\mathbf{B}} & = 0 
-\end{eqnarray}
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div><div style=display:none>
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[29]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">YouTubeVideo</span>
-<span class="n">start_time_in_seconds</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="mi">13</span><span class="o">*</span><span class="mf">60.0</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)</span>
-<span class="n">hogg_vid</span> <span class="o">=</span> <span class="n">YouTubeVideo</span><span class="p">(</span><span class="s">&#39;wq6M8jJqHUQ&#39;</span><span class="p">,</span> <span class="n">start</span><span class="o">=</span><span class="n">start_time_in_seconds</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-    </div></section><section>
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[30]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">hogg_vid</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
 
 <div class="output_area"><div class="prompt"></div>
 
 <div class="output_html rendered_html output_subarea ">
-
-        <iframe
-            width="400"
-            height=300"
-            src="https://www.youtube.com/embed/wq6M8jJqHUQ?start=781"
-            frameborder="0"
-            allowfullscreen
-        ></iframe>
-        
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[31]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">IFrame</span>
-<span class="n">aas_web</span> <span class="o">=</span> <span class="n">IFrame</span><span class="p">(</span><span class="s">&#39;https://jobregister.aas.org/job_view?JobID=49051&#39;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="s">&#39;100%&#39;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">350</span><span class="p">)</span>
-<span class="n">MLfigs</span> <span class="o">=</span> <span class="n">IFrame</span><span class="p">(</span><span class="s">&#39;http://gully.github.io/astroMLfigs/html/fig10_21.html&#39;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="s">&#39;100%&#39;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">350</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div></section><section>
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[32]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">aas_web</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-
-<div class="output_html rendered_html output_subarea ">
-
-        <iframe
-            width="100%"
-            height=350"
-            src="https://jobregister.aas.org/job_view?JobID=49051"
-            frameborder="0"
-            allowfullscreen
-        ></iframe>
-        
+<iframe src=http://irtfweb.ifa.hawaii.edu/~cushing/downloads/Burrows97_Lbol.pdf width=800 height = 600></iframe>
 </div>
 
 </div>
@@ -2081,43 +2006,15 @@ In&nbsp;[32]:
 
 </div></section><section>
     
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
+<div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
-In&nbsp;[33]:
 </div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">MLfigs</span><span class="p">)</span>
-</pre></div>
-
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="since-they-only-get-fainter-in-time-brown-dwarfs-are-most-luminous-at-young-ages-">Since they only get fainter in time, brown dwarfs are most luminous at young ages.</h3>
+<p>Young brown dwarfs can be seen at larger distances than old brown dwarfs.</p>
 </div>
 </div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-
-<div class="output_html rendered_html output_subarea ">
-
-        <iframe
-            width="100%"
-            height=350"
-            src="http://gully.github.io/astroMLfigs/html/fig10_21.html"
-            frameborder="0"
-            allowfullscreen
-        ></iframe>
-        
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div></section>
     </section><section>
     <section>
