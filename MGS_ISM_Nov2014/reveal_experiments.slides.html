@@ -1785,66 +1785,34 @@ In&nbsp;[1]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="outline">Outline</h2>
-<ul>
-<li>Background on brown dwarfs and star formation</li>
-</ul>
+<p>We want to understand how star and planet formation works across the entire mass/energy spectrum.</p>
+<p>Brown dwarfs offer a laboratory for studying protoplanetary disks behavior at low mass/energy.</p>
 </div>
 </div>
-</div><div class="fragment">
+</div></section>
+    </section><section>
+    <section>
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>Goal of our program</li>
-</ul>
+<h1 id="brown-dwarf-physics">Brown dwarf physics</h1>
 </div>
 </div>
-</div>
-    </div><div class="fragment">
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>Sample selection</li>
-</ul>
-</div>
-</div>
-</div>
-    </div><div class="fragment">
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>Magellan and FIRE spectroscopy</li>
-</ul>
-</div>
-</div>
-</div>
-    </div><div style=display:none>
+</div><div style=display:none>
     
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[1]:
+In&nbsp;[58]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
 <div class="highlight"><pre><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Image</span>
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
-<span class="n">Gl229B_image</span> <span class="o">=</span> <span class="n">Image</span><span class="p">(</span><span class="n">url</span><span class="o">=</span><span class="s">&#39;http://upload.wikimedia.org/wikipedia/commons/7/78/Brown_Dwarf_Gliese_229B.jpg&#39;</span><span class="p">,</span>
-                     <span class="n">width</span><span class="o">=</span><span class="mi">600</span><span class="p">)</span>
-<span class="n">h</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;h2&gt;Brown dwarfs were discovered 20 years ago&lt;/h2&gt;&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -1856,44 +1824,15 @@ In&nbsp;[1]:
     </section><section>
     <section>
     
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
+<div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
-In&nbsp;[3]:
 </div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">h</span><span class="p">)</span>
-<span class="n">display</span><span class="p">(</span><span class="n">Gl229B_image</span><span class="p">)</span>
-</pre></div>
-
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="brown-dwarfs-were-discovered-20-years-ago">Brown dwarfs were discovered 20 years ago</h3>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/7/78/Brown_Dwarf_Gliese_229B.jpg" width=550></p>
 </div>
 </div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-
-<div class="output_html rendered_html output_subarea ">
-<h2>Brown dwarfs were discovered 20 years ago</h2>
-</div>
-
-</div>
-
-<div class="output_area"><div class="prompt"></div>
-
-<div class="output_html rendered_html output_subarea ">
-<img src="http://upload.wikimedia.org/wikipedia/commons/7/78/Brown_Dwarf_Gliese_229B.jpg" width="600"/>
-</div>
-
-</div>
-
-</div>
-</div>
-
 </div></section>
     </section><section>
     <section>
@@ -1918,30 +1857,60 @@ In&nbsp;[3]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="key-properties-of-brown-dwarfs">Key properties of brown dwarfs</h2>
+<p>Brown dwarfs are low mass <br> $-1.9 \lesssim \log{\frac{M}{M_{\odot}}} \lesssim  -1.1 $ </p>
+<p>They span a wide range in luminosity <br> $-7 \lesssim \log{\frac{L}{L_{\odot}}} \lesssim -1 $</p>
 <p class="fragment grow">
-Brown dwarfs are low mass <br> $-1.9 \lesssim \log{\frac{M}{M_{\odot}}} \lesssim  -1.1 $ 
+Brown dwarfs are monotonically cooling$^\dagger$, $\frac{dT}{dt} \leq 0$
+</p>
+
+<p>Brown dwarfs are monotonically shrinking, $\frac{dR}{dt} &lt; 0$</p>
+<p class="fragment grow">
+From Stefan-Boltzmann law and product rule, $\frac{dL}{dt} &lt; 0$
 </p>
 
 <p class="fragment grow">
-They span a wide range in luminosity <br> $-7 \lesssim \log{\frac{L}{L_{\odot}}} \lesssim -1 $
+Brown dwarfs are cool enough to have many molecular species exist in their atmospheres.
 </p>
-
-<p class="fragment grow">
-Brown dwarfs are monotonically cooling$^\dagger$, $\frac{dT}{dt} &lt; 0$
-
-</p>
-
-<p class="fragment grow">
-Brown dwarfs are monotonically shrinking, $\frac{dR}{dt} &lt; 0$
-</p>
-
-<p class="fragment grow">
-Therefore, from Stefan-Boltzmann law, $\frac{dL}{dt} &lt; 0$
-</p>
-
-<p class="fragment grow">
-Brown dwarfs are not black bodies- molecules exist in their atmospheres.
-</p>
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="brown-dwarfs-monotonically-dim-">Brown dwarfs monotonically dim.</h3>
+<p>Brown dwarfs are most luminous at young ages.</p>
+<p>Nearby young star forming regions ($t\sim 1-10$ Myr) are the best setting for finding brown dwarfs (and sub-brown dwarfs).
+<img src='local_figs/Burrows97_Lbol.png' width=550>
+<em>Burrows et al. 1997</em></p>
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="brown-dwarfs-monotonically-0-cool-">Brown dwarfs monotonically$^\dagger$ cool.</h3>
+<p>Brown dwarf spectral types change as a function of time. M -&gt; L -&gt; T -&gt; Y
+<img src="local_figs/Burrows97_Teff.png" width=550>
+Burrows et al. 1997</p>
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="brown-dwarf-spectra-exhibit-abundant-molecular-bands">Brown dwarf spectra exhibit abundant molecular bands</h3>
+<p>There is an important broad water feature at 1.4 $\mu$m</p>
+<p><img src='local_figs/Gl229B.png' width=550>
+<em>Burrows et al. 1997</em></p>
 </div>
 </div>
 </div><div style=display:none>
@@ -1949,12 +1918,11 @@ Brown dwarfs are not black bodies- molecules exist in their atmospheres.
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[16]:
+In&nbsp;[]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">burrows_title</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;h3&gt;Brown dwarfs are monotonically decreasing luminosity&lt;/h3&gt;&#39;</span><span class="p">)</span>
-<span class="n">burrows_T</span> <span class="o">=</span> <span class="n">HTML</span><span class="p">(</span><span class="s">&#39;&lt;iframe src=http://irtfweb.ifa.hawaii.edu/~cushing/downloads/Burrows97_Lbol.pdf width=800 height = 600&gt;&lt;/iframe&gt;&#39;</span><span class="p">)</span>
+<div class="highlight"><pre><span class="o">&lt;</span><span class="n">section</span> <span class="n">data</span><span class="o">-</span><span class="n">background</span><span class="o">=</span><span class="s">&quot;http://www.nasa.gov/images/content/532867main_pia13974-full_full.jpg&quot;</span><span class="o">&gt;</span>
 </pre></div>
 
 </div>
@@ -1966,44 +1934,68 @@ In&nbsp;[16]:
     </section><section>
     <section>
     
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
+<div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
-In&nbsp;[17]:
 </div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">display</span><span class="p">(</span><span class="n">burrows_title</span><span class="p">)</span>
-<span class="n">display</span><span class="p">(</span><span class="n">burrows_T</span><span class="p">)</span>
-</pre></div>
-
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="finding-young-brown-dwarfs-is-a-needle-in-a-haystack-problem-">Finding young brown dwarfs is a needle-in-a-haystack problem.</h1>
 </div>
 </div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
 </div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-
-<div class="output_html rendered_html output_subarea ">
-<h3>Brown dwarfs are monotonically decreasing luminosity</h3>
-</div>
-
-</div>
-
-<div class="output_area"><div class="prompt"></div>
-
-<div class="output_html rendered_html output_subarea ">
-<iframe src=http://irtfweb.ifa.hawaii.edu/~cushing/downloads/Burrows97_Lbol.pdf width=800 height = 600></iframe>
-</div>
-
-</div>
-
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="the-ideal-survey-has-abundant-precise-measurements-for-all-sources-">The ideal survey has abundant precise measurements for all sources.</h3>
+<p><strong>Photometry</strong>
+ugrizy, DENIS iJK, 2MASS JHK, IRAC1234, WISE1234, MIPS12, Herschel, sub-mm, etc.</p>
+<p><strong>Kinematic measurements</strong>
+Parallax, proper motion, radial velocity</p>
+<p><strong>Monitoring</strong>
+YSOVAR, K2, etc.</p>
+<p><strong>Spectroscopy</strong></p>
 </div>
 </div>
-
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="the-realistic-survey-has-incomplete-information-">The realistic survey has incomplete information.</h3>
+<p><strong>Photometry</strong>
+IRAC12, MIPS1</p>
+<p><del><strong>Kinematic measurements</strong></del>, <del><strong>Monitoring</strong></del>, <del><strong>Spectroscopy</strong></del></p>
+<p><em>Young BDs in nearby star forming regions are still below the sensitivity limits of most surveys.</em></p>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="we-have-a-custom-deep-photometric-catalog-of-0-ophiuchus-">We have a custom deep photometric catalog of $\rho$ Ophiuchus.</h3>
+<ul>
+<li>IRAC12, MIPS1 (c2d; e.g. Evans et al. 2009)</li>
+<li>IJHK (from Allers et al. 2006)</li>
+<li>Deep Spitzer IRAC34 photometry (Harvey et al. 2010, <em>this work</em>)<p class="fragment grow"></li>
+<li>Custom 1.4 $\mu$m &quot;$W$ filter&quot; photometry (Allers et al. in prep, <em>this work</em>)
+</p></li>
+</ul>
+</div>
+</div>
 </div></section><section>
     
 <div class="cell border-box-sizing text_cell rendered">
@@ -2011,11 +2003,39 @@ In&nbsp;[17]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="since-they-only-get-fainter-in-time-brown-dwarfs-are-most-luminous-at-young-ages-">Since they only get fainter in time, brown dwarfs are most luminous at young ages.</h3>
-<p>Young brown dwarfs can be seen at larger distances than old brown dwarfs.</p>
+<h3 id="the-0-filter-separates-late-m-types-from-reddened-background-sources-">The $W$ filter separates late-M types from reddened background sources.</h3>
+<p>It&#39;s only do-able from <em>dry</em> places, like Mauna Kea or Space.
+<img src="local_figs/w_filter2.jpg" width=550></p>
 </div>
 </div>
 </div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="how-to-find-20-young-brown-dwarfs-in-a-54-373-source-catalog-and-why-machine-learning-will-not-work-for-this-problem-">How to find ~20 young brown dwarfs in a 54,373 source catalog, and why machine learning will not work for this problem.</h3>
+<p><img src="local_figs/9D_catalog.png" width=600></p>
+</div>
+</div>
+</div><div style=display:none>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Supervised classification- we have some brown dwarfs that are labeled, and tens of thousands of others.</li>
+<li>Relies on the assumption that the labelled data are statistically similar to the unlabelled data.</li>
+</ul>
+</div>
+</div>
+</div>
+    </div></section>
     </section><section>
     <section>
     
