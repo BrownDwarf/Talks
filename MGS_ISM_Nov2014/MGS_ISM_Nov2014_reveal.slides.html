@@ -9,7 +9,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-<title>reveal_experiments slides</title>
+<title>MGS_ISM_Nov2014_reveal slides</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -1723,7 +1723,7 @@ div.output_prompt {
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[1]:
+In&nbsp;[13]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1786,19 +1786,7 @@ In&nbsp;[1]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>We want to understand how star and planet formation works across the entire mass/energy spectrum.</p>
-<p>Brown dwarfs offer a laboratory for studying protoplanetary disks behavior at low mass/energy.</p>
-</div>
-</div>
-</div></section>
-    </section><section>
-    <section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="brown-dwarf-physics">Brown dwarf physics</h1>
+<p>Brown dwarfs offer a laboratory for studying protoplanetary disk behavior at low mass/energy.</p>
 </div>
 </div>
 </div><div style=display:none>
@@ -1806,7 +1794,7 @@ In&nbsp;[1]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[58]:
+In&nbsp;[14]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1830,7 +1818,7 @@ In&nbsp;[58]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="brown-dwarfs-were-discovered-20-years-ago">Brown dwarfs were discovered 20 years ago</h3>
-<p><img src="http://upload.wikimedia.org/wikipedia/commons/7/78/Brown_Dwarf_Gliese_229B.jpg" width=550></p>
+<p><img src="http://upload.wikimedia.org/wikipedia/commons/7/78/Brown_Dwarf_Gliese_229B.jpg" width=800></p>
 </div>
 </div>
 </div></section>
@@ -1859,11 +1847,11 @@ In&nbsp;[58]:
 <h2 id="key-properties-of-brown-dwarfs">Key properties of brown dwarfs</h2>
 <p>Brown dwarfs are low mass <br> $-1.9 \lesssim \log{\frac{M}{M_{\odot}}} \lesssim  -1.1 $ </p>
 <p>They span a wide range in luminosity <br> $-7 \lesssim \log{\frac{L}{L_{\odot}}} \lesssim -1 $</p>
+<p>Brown dwarfs are monotonically cooling$^\dagger$, $\frac{dT}{dt} \leq 0$</p>
 <p class="fragment grow">
-Brown dwarfs are monotonically cooling$^\dagger$, $\frac{dT}{dt} \leq 0$
+Brown dwarfs are monotonically shrinking, $\frac{dR}{dt} &lt; 0$
 </p>
 
-<p>Brown dwarfs are monotonically shrinking, $\frac{dR}{dt} &lt; 0$</p>
 <p class="fragment grow">
 From Stefan-Boltzmann law and product rule, $\frac{dL}{dt} &lt; 0$
 </p>
@@ -1873,7 +1861,9 @@ Brown dwarfs are cool enough to have many molecular species exist in their atmos
 </p>
 </div>
 </div>
-</div></section><section>
+</div></section>
+    </section><section>
+    <section>
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -1883,11 +1873,13 @@ Brown dwarfs are cool enough to have many molecular species exist in their atmos
 <h3 id="brown-dwarfs-monotonically-dim-">Brown dwarfs monotonically dim.</h3>
 <p>Brown dwarfs are most luminous at young ages.</p>
 <p>Nearby young star forming regions ($t\sim 1-10$ Myr) are the best setting for finding brown dwarfs (and sub-brown dwarfs).
-<img src='local_figs/Burrows97_Lbol.png' width=550>
+<img src='local_figs/Burrows97_Lbol.png' width=500>
 <em>Burrows et al. 1997</em></p>
 </div>
 </div>
-</div></section><section>
+</div></section>
+    </section><section>
+    <section>
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -1895,12 +1887,15 @@ Brown dwarfs are cool enough to have many molecular species exist in their atmos
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="brown-dwarfs-monotonically-0-cool-">Brown dwarfs monotonically$^\dagger$ cool.</h3>
-<p>Brown dwarf spectral types change as a function of time. M -&gt; L -&gt; T -&gt; Y
-<img src="local_figs/Burrows97_Teff.png" width=550>
+<p>Brown dwarf spectral types change as a function of time. </p>
+<p>M -&gt; L -&gt; T -&gt; Y
+<img src="local_figs/Burrows97_Teff.png" width=500>
 Burrows et al. 1997</p>
 </div>
 </div>
-</div></section><section>
+</div></section>
+    </section><section>
+    <section>
     
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
@@ -1918,11 +1913,11 @@ Burrows et al. 1997</p>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[]:
+In&nbsp;[15]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="o">&lt;</span><span class="n">section</span> <span class="n">data</span><span class="o">-</span><span class="n">background</span><span class="o">=</span><span class="s">&quot;http://www.nasa.gov/images/content/532867main_pia13974-full_full.jpg&quot;</span><span class="o">&gt;</span>
+<div class="highlight"><pre><span class="c">#&lt;section data-background=&quot;http://www.nasa.gov/images/content/532867main_pia13974-full_full.jpg&quot;&gt;</span>
 </pre></div>
 
 </div>
@@ -1940,6 +1935,7 @@ In&nbsp;[]:
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="finding-young-brown-dwarfs-is-a-needle-in-a-haystack-problem-">Finding young brown dwarfs is a needle-in-a-haystack problem.</h1>
+<p>There are ~ 3000 other sources (galaxies, background stars, old M dwarfs, etc) for every likely young brown dwarf. (~20 sources out of 54,373)</p>
 </div>
 </div>
 </div></section>
@@ -1972,7 +1968,7 @@ YSOVAR, K2, etc.</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="the-realistic-survey-has-incomplete-information-">The realistic survey has incomplete information.</h3>
 <p><strong>Photometry</strong>
-IRAC12, MIPS1</p>
+IRAC12, (MIPS1)</p>
 <p><del><strong>Kinematic measurements</strong></del>, <del><strong>Monitoring</strong></del>, <del><strong>Spectroscopy</strong></del></p>
 <p><em>Young BDs in nearby star forming regions are still below the sensitivity limits of most surveys.</em></p>
 </div>
@@ -1990,22 +1986,11 @@ IRAC12, MIPS1</p>
 <ul>
 <li>IRAC12, MIPS1 (c2d; e.g. Evans et al. 2009)</li>
 <li>IJHK (from Allers et al. 2006)</li>
-<li>Deep Spitzer IRAC34 photometry (Harvey et al. 2010, <em>this work</em>)<p class="fragment grow"></li>
-<li>Custom 1.4 $\mu$m &quot;$W$ filter&quot; photometry (Allers et al. in prep, <em>this work</em>)
-</p></li>
+<li>Deep Spitzer IRAC34 photometry (Harvey et al. 2010, <em>this work</em>)</li>
 </ul>
-</div>
-</div>
-</div></section><section>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="the-0-filter-separates-late-m-types-from-reddened-background-sources-">The $W$ filter separates late-M types from reddened background sources.</h3>
-<p>It&#39;s only do-able from <em>dry</em> places, like Mauna Kea or Space.
-<img src="local_figs/w_filter2.jpg" width=550></p>
+<p class="fragment grow">
+Custom 1.4 $\mu$m &quot;$W$ filter&quot; photometry (Allers et al. in prep, <em>this work</em>)
+</p>
 </div>
 </div>
 </div></section>
@@ -2017,25 +2002,13 @@ IRAC12, MIPS1</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="how-to-find-20-young-brown-dwarfs-in-a-54-373-source-catalog-and-why-machine-learning-will-not-work-for-this-problem-">How to find ~20 young brown dwarfs in a 54,373 source catalog, and why machine learning will not work for this problem.</h3>
-<p><img src="local_figs/9D_catalog.png" width=600></p>
+<h3 id="the-0-filter-separates-late-m-types-from-reddened-background-sources-">The $W$ filter separates late-M types from reddened background sources.</h3>
+<p>It&#39;s only do-able from <em>dry</em> places, like Mauna Kea or Space.
+<img src="local_figs/w_filter2.jpg" width=550>
+<em>Allers et al. in prep</em></p>
 </div>
 </div>
-</div><div style=display:none>
-    
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>Supervised classification- we have some brown dwarfs that are labeled, and tens of thousands of others.</li>
-<li>Relies on the assumption that the labelled data are statistically similar to the unlabelled data.</li>
-</ul>
-</div>
-</div>
-</div>
-    </div></section>
+</div></section>
     </section><section>
     <section>
     
@@ -2044,7 +2017,348 @@ IRAC12, MIPS1</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="the-end-">The end.</h1>
+<h1 id="we-have-54-373-vectors-in-a-9-dimensional-space-">We have 54,373 vectors in a 9 dimensional space.</h1>
+<p>We want to find the 9 dimensional subspace inhabited by young brown dwarfs.</p>
+<p>In principle, Machine Learning is well-suited to solve this type of problem.  </p>
+<p>Specifically, we can train a model with known young brown dwarfs, to classify unknown brown dwarfs.</p>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="local_figs/9D_catalog_alt.png" width=700></p>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Example of Machine Learning applied to periodic variability in LINEAR sample of near-Earth asteroids</p>
+<font size=2>Top row: clusters derived using two attributes ($g - i$ and $\log{P}$)
+Bottom row: clusters derived using seven attributes </font>
+
+<p><img src="local_figs/fig_LINEAR_GMMBayes_1.png" width=400></p>
+<font size=2><em>Statistics, Data Mining, Machine Learning in Astronomy (2014)</em></font>
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="http://press.princeton.edu/images/k10159.gif"></p>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="in-practice-machine-learning-does-not-work-for-my-sample-">In practice, Machine Learning does not work for my sample:</h1>
+<ol>
+<li>Not enough labelled data (155 known sources/54373, only ~9 known YBDs)</li>
+<li>Labelled data is statistically different from unlabelled data<ul>
+<li>Labelled data is generally higher signal-to-noise ratio</li>
+<li>Reddening</li>
+<li>Diskless vs disk-bearing</li>
+</ul>
+</li>
+<li>Does not leverage known physics (distances, reddening, disks)</li>
+<li>No good way to leverage known measurement uncertainties</li>
+<li>ML does not handle missing data well</li>
+<li>Labelling data is expensive (requires going to the telescope)</li>
+</ol>
+</div>
+</div>
+</div></section><section>
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[16]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+
+<span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">&quot;local_dat/detected_frac.txt&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[16]:</div>
+
+<div class="output_html rendered_html output_subarea output_pyout">
+<div style="max-height:1000px;max-width:1500px;overflow:auto;">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Photometric Color</th>
+      <th> Detected Fraction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>         $H-K$</td>
+      <td> 0.38</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td> $IRAC1-IRAC2$</td>
+      <td> 0.77</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td> $IRAC2-IRAC3$</td>
+      <td> 0.66</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td> $IRAC3-IRAC4$</td>
+      <td> 0.49</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td> $IRAC4-MIPS1$</td>
+      <td> 0.31</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>         $I-J$</td>
+      <td> 0.63</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>         $J-H$</td>
+      <td> 1.00</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>     $K-IRAC1$</td>
+      <td> 0.34</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>           $Q$</td>
+      <td> 0.58</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="what-we-actually-did-for-candidate-selection-">What we actually did for candidate selection:</h1>
+<p>Four tiered binary selection methods:</p>
+<ul>
+<li>Disk bearing (yes / no)</li>
+<li>$W$- filter (yes / no)</li>
+<li>$H-[3.6]$ consistent with BD photosphere (yes / no)</li>
+<li>$I-J$ and $J-H$ consistent with reddened known BD colors (yes / no)</li>
+</ul>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="local_figs/4panel_selection_IMACS.png" width=600></p>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="local_figs/priority_table.png" width=1000></p>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><img src="local_figs/WISE_IMACS_field.png" width=1000></p>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="imacs-multi-object-spectroscopy-530-slits-20-hours-on-sky">IMACS Multi-object spectroscopy: 530 slits, 20 hours on sky</h1>
+<ul>
+<li>Magellan Baade 6.5 m telescope</li>
+<li>$\lambda$ range: 650-900 nm</li>
+<li>$R\sim$ 1000</li>
+</ul>
+<p><img src="local_figs/IMACS_slit_mask_numbers.png" width=700></p>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="data-reduction-was-complicated-by-">Data reduction was complicated by:</h1>
+<ol>
+<li>Some mistakes we made in the first year of mask design (overlapping spectra).</li>
+<li>Quirky and inflexible facility data reduction pipeline (<code>Cosmos</code>)</li>
+</ol>
+<p>I wrote custom scripts to automate the entire data reduction pipeline.  This was only marginally useful- there&#39;s only so much $S/N$ you can squeeze out of your data, and customization for pathological spectral extraction has diminishing returns.  </p>
+<blockquote>
+<p>90% of your pipeline is for 5% of your data <br>-- A. Kraus</p>
+</blockquote>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="spectral-classification-">Spectral classification.</h1>
+<ol>
+<li>Spectral type</li>
+<li>Reddening</li>
+<li>Gravity sensitive features- NaI (low grav. indicative of youth)</li>
+<li>Accretion diagnostics
+<img src="local_figs/OPH_672_ex_spec.png" width=550></li>
+</ol>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="spectral-types-and-youth-indicators">Spectral types and youth indicators</h1>
+<p>It makes sense that we are finding many spurious M4-M6 dwarfs- $W$ filter picks these out! Also, near peak of the IMF.</p>
+<p><img src="local_figs/SpT_distribution.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="local_figs/NaI_distribution.png" style="float: left; width: 45%; margin-right: 1%; margin-bottom: 0.5em;"></p>
+<p style="clear: both;">
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="evidence-for-more-evolved-disks-flared-disks">Evidence for more evolved disks, flared disks</h1>
+<p><img src="local_figs/IMACS_disks.png"></p>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="laundry-list-of-remaining-questions-">Laundry list of remaining questions:</h1>
+<ul>
+<li>How do the properties of the sources scale with luminosity?</li>
+<li>What would we have selected (or mistakenly ranked highly) if we had dropped $W-$filter?</li>
+<li>What is the prospect for improving selection strategies in future surveys (e.g proper motion)?</li>
+<li>What can we say, if anything, about the IMF?</li>
+<li>What is going on with the flared disks?</li>
+<li>Have we found Class III analogues?</li>
+<li>Upper Sco contamination?</li>
+<li>How does accretion correlate with disk presence/absence?</li>
+<li>How many discoveries in the FIRE sample?</li>
+</ul>
+</div>
+</div>
+</div></section>
+    </section><section>
+    <section>
+    
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="conclusions">Conclusions</h1>
+<ol>
+<li>We conducted a search for young brown dwarfs in the $\rho$ Oph star forming region</li>
+<li>Of 54,373 sources, we discovered ~20 young brown dwarfs.</li>
+<li>Their disks are more evolved than samples selected for disks.</li>
+<li>Machine learning is not (yet at least) a good classification method for this type of problem.</li>
+<li>More to come</li>
+</ol>
 </div>
 </div>
 </div></section>
